@@ -1,6 +1,6 @@
 # StellarDataStore.DataApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.stellards.io*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -24,7 +24,7 @@ Download a file from a blob field as a stream.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -79,7 +79,7 @@ Upload a file to a blob field.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -138,7 +138,7 @@ Deletes all records from the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -189,7 +189,7 @@ Deletes records from the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -244,7 +244,7 @@ Deletes records from the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -299,7 +299,7 @@ Gets the records for a given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -366,7 +366,7 @@ Adds records to the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -421,7 +421,7 @@ Updates records in the given table based on the values in record.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];

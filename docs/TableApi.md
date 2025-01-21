@@ -1,6 +1,6 @@
 # StellarDataStore.TableApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.stellards.io*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,7 +20,7 @@ Deletes a table from the database.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -71,7 +71,7 @@ Gets table(s) from the logged in user.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -124,7 +124,7 @@ Creates a new table in the database.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -177,7 +177,7 @@ Updates a table in the database.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];

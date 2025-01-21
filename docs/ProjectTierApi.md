@@ -1,6 +1,6 @@
 # StellarDataStore.ProjectTierApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.stellards.io*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -18,7 +18,7 @@ Method | HTTP request | Description
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];

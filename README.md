@@ -97,7 +97,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var StellarDataStore = require('stellar_data_store');
+var StellarDataStore = require('stellards-js-sdk');
 
 var defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
@@ -124,7 +124,7 @@ api.v1DataTableBlobGet(project, table, record, field, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.stellards.io*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

@@ -1,6 +1,6 @@
 # StellarDataStore.FieldApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://api.stellards.io*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,7 +20,7 @@ Deletes the given field within the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -73,7 +73,7 @@ Gets field(s) from given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -128,7 +128,7 @@ Adds a field to the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
@@ -183,7 +183,7 @@ Updates the given field in the given table.
 ### Example
 
 ```javascript
-import StellarDataStore from 'stellar_data_store';
+import StellarDataStore from 'stellards-js-sdk';
 let defaultClient = StellarDataStore.ApiClient.instance;
 // Configure API key authorization: Bearer
 let Bearer = defaultClient.authentications['Bearer'];
