@@ -72,7 +72,11 @@ perform the following (assuming *main.js* is your entry file):
 browserify main.js > bundle.js
 ```
 
-Then include *bundle.js* in the HTML pages.
+Then include *bundle.js* in the HTML pages. Or use it directly from our server using the following code: 
+
+```html
+<script src='https://stellards.io/js/stellardssdk.js'></script>
+```
 
 ### Webpack Configuration
 
