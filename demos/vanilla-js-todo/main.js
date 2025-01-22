@@ -7,6 +7,12 @@ const TOKEN_ENDPOINT = 'https://api.stellards.io/v1/oauth/token';
 const BASE_URL = 'https://api.stellards.io/v1';
 const PROJECT = ""; // String | The project containing the table.
 const TABLE = 0; 
+
+const todoForm = document.getElementById('todoForm');
+const todoInput = document.getElementById('todoInput');
+const todoList = document.getElementById('todoList');
+const signIn = document.getElementById('signIn');
+
 let tokenResponse = null;
 
 const oauth = new OAuth2({
@@ -32,11 +38,10 @@ window.addEventListener('load', async () => {
     if (code) {
 
         try {
-
             tokenResponse = await oauth.exchangeCodeForToken(code);
-           
             Bearer.apiKey = "Bearer " + tokenResponse.access_token;
             apiInstance = new StellarDataStore.DataApi(defaultClient);
+            signIn.style.display = 'none';
             renderTodos();
         } catch (error) {
             console.error('Failed to retrieve access token:', error);
@@ -45,10 +50,6 @@ window.addEventListener('load', async () => {
         console.log('No authorization code found.');
     }
 });
-
-const todoForm = document.getElementById('todoForm');
-const todoInput = document.getElementById('todoInput');
-const todoList = document.getElementById('todoList');
 
 async function renderTodos() {
    
