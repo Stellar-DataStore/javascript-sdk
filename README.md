@@ -1,4 +1,24 @@
-# StellarDS.io
+# StellarDS.io JavaScript SDK (deprecated)
+
+> **This package is deprecated.** `stellards-js-sdk` only covers the original v1 API and won't get new features or
+> fixes. Use the TypeScript SDK instead. It works from plain JavaScript (ESM and CommonJS), in the browser through a
+> script tag, and in TypeScript, and it covers the full API: procedures, relations, roles, custom queries, audit and
+> rollback, webhooks, and the new field types.
+>
+> - npm: [`stellards_typescript_sdk`](https://www.npmjs.com/package/stellards_typescript_sdk) (2.0 and later)
+> - Source: [stellar-datastore/Typescript-sdk](https://github.com/stellar-datastore/Typescript-sdk)
+>
+> ```shell
+> npm uninstall stellards-js-sdk
+> npm install stellards_typescript_sdk
+> ```
+>
+> The Typescript-sdk README has a section on migrating from this package.
+
+The original README follows for existing users.
+
+---
+
 
 JavaScript client for StellarDataStore
 The Stellar DataStore service is your instantly available, secure and worry-free cloud data storage service. Sign-up now and minutes later, you can start putting your data in the cloud.
